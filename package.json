@@ -1,0 +1,32 @@
+{
+  "name": "naive-saga",
+  "version": "0.0.0",
+  "description": "A naive node implementation of sagas",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-eslint": "^5.0.1",
+    "eslint-plugin-node": "^6.0.1",
+    "faucet": "0.0.1",
+    "tape": "^4.11.0"
+  },
+  "scripts": {
+    "test": "npx tape ./test/*.js | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-schrepel/naive-saga.git"
+  },
+  "keywords": [
+    "saga",
+    "node",
+    "javascript"
+  ],
+  "author": "m-schrepel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m-schrepel/naive-saga/issues"
+  },
+  "homepage": "https://github.com/m-schrepel/naive-saga#readme"
+}
